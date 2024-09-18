@@ -1,0 +1,33 @@
+body {
+  margin: 1.5em;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.hero-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../css/images/downarr.jpg");
+  width: 100%;
+  height: 100vh;
+  z-index: -1;
+  background-position-x: 20%;
+  background-position-y: 20%;
+  width: 100%;
+  height: 100%;
+}
+
+.logo {
+  color: white;
+  font-weight: bold;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}/*# sourceMappingURL=main.css.map */
